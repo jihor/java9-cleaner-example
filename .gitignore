@@ -1,0 +1,28 @@
+ \.orig$
+
+\.iml$
+\.class$
+\.orig\..*$
+\.chg\..*$
+\.rej$
+\.conflict\~$
+^private$
+syntax: glob
+.metadata/**
+.recommenders/**
+RemoteSystemsTempFiles/**
+
+.idea/**
+.settings/**
+*/logs/**
+
+
+.gradle/
+.idea/
+*.iml
+Stress Test Result
+buildSrc/.gradle/
+buildSrc/build/
+logs/
+*/build/**
+*/out/**
